@@ -2,7 +2,7 @@
 
 Real-time industrial telemetry dashboard. Built end-to-end with **Claude Code**.
 
-**Live demo:** _add your URL here_
+**Live demo:** https://iot-pulse-kappa.vercel.app
 
 ## Stack
 
