@@ -1,0 +1,12 @@
+name = "iot-pulse-worker"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+# Simulated telemetry every 5 minutes
+[triggers]
+crons = ["*/5 * * * *"]
+
+# Secrets (set with `npx wrangler secret put <NAME>`):
+#   SUPABASE_URL              -> https://YOUR-PROJECT.supabase.co
+#   SUPABASE_SERVICE_ROLE_KEY -> service_role key (Project Settings -> API)
+#   INGEST_TOKEN              -> any random string, protects POST /ingest
